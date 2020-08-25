@@ -2,7 +2,7 @@ FROM        kylemanna/openvpn:2.4 as openvpn
 
 ###
 
-FROM        alpine:3.10
+FROM        alpine:3.8
 
 ENV         OPENVPN /etc/openvpn
 ENV         EASYRSA /usr/share/easy-rsa
